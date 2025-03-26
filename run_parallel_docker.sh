@@ -131,8 +131,8 @@ while [ $ALL_COMPLETED -eq 0 ]; do
         fi
     done
     if [ $ALL_COMPLETED -eq 0 ]; then
-        echo "Containers still running. Waiting 30 seconds..." | tee -a $LOG_FILE
-        sleep 30
+        echo "Containers still running. Waiting 15 seconds..." | tee -a $LOG_FILE
+        sleep 15
     fi
 done
 
